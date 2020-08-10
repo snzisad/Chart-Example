@@ -8,9 +8,16 @@
     android:orientation="vertical">
 
     <Button
+        android:onClick="showPieChart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pie Chart"/>
+
+    <Button
         android:onClick="showBarChart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Bar Chart"/>
+
 
 </LinearLayout>

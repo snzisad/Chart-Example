@@ -14,6 +14,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
 
+    public void showPieChart(View view){
+        startActivity(new Intent(this, PieChartActivity.class));
+    }
+
     public void showBarChart(View view){
         startActivity(new Intent(this, BarChartActivity.class));
     }
